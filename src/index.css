@@ -1,0 +1,9 @@
+/* in BASE este styling-ul care reseteaza styling-ul default de la browser */
+/* in COMPONENTS este doar o singura clasa, container, -> aici putem sa ne adaugam noi clase custom, ex: un btn care sa fie mai 'buton' decat cel default */
+/* in UTILITIES sunt majoritatea claselor din Tailwind adica: flex, colors, margin, padding etc */
+/* @layer: tell Tailwind which “bucket” a set of custom styles belong to. Valid layers are base, components, and utilities.*/
+/* @apply: to inline any existing utility classes into your own custom CSS.*/
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+
